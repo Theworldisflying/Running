@@ -9,10 +9,53 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#import "FMDB.h"
+#import "FMDBManager.h"
 #import "Masonry.h"
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "MyUserDefaults.h"
+
+#import "Running-Swift.h"
+
+
+////版本号
+#define YGVersionKey @"version"
+
+///系统版本号
+#define IOS7            ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 7.0)
+/** 屏幕 */
+#define RCScreenW [UIScreen mainScreen].bounds.size.width
+#define RCScreenH [UIScreen mainScreen].bounds.size.height
+/* NSLog  */
+//解决Xcode8 真机测试NSLog不打印
+#ifdef DEBUG
+#define RCNSLog(format, ...) printf("[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#else
+#define RCNSLog(format, ...)
+#endif
+
+
+/** 颜色 */
+#define RCRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+
+
+#define RCRandomColor RCRGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#define RCGlobalBg RCRGBColor(223, 223, 223)
+
+
+
+#define Height [UIScreen mainScreen].bounds.size.height
+#define Width [UIScreen mainScreen].bounds.size.width
+#define XCenter self.view.center.x
+#define YCenter self.view.center.y
+
+
+#define STEPTARGET @"STarget"
+/*The name of table for HealthKit data */
+#define HealthTable @"healthTb"
+
 
 #endif /* PrefixHeader_pch */

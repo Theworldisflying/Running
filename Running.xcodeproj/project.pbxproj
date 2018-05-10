@@ -8,17 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		6E39FE69638A6B2C34165C63 /* libPods-Running.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E24764228F21BD9896A82 /* libPods-Running.a */; };
-		EC8AA2B120A059C000BB474A /* History in Resources */ = {isa = PBXBuildFile; fileRef = EC8AA2AE20A059BF00BB474A /* History */; };
-		EC8AA2B220A059C000BB474A /* Others in Resources */ = {isa = PBXBuildFile; fileRef = EC8AA2AF20A059BF00BB474A /* Others */; };
-		EC8AA2B320A059C000BB474A /* Sports in Resources */ = {isa = PBXBuildFile; fileRef = EC8AA2B020A059BF00BB474A /* Sports */; };
+		EC14BBEC20A3D6D80012D615 /* HistoryOneDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14BBEB20A3D6D80012D615 /* HistoryOneDayView.m */; };
+		EC14BBF820A3E7D10012D615 /* XYMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14BBEE20A3E7D00012D615 /* XYMenuItem.m */; };
+		EC14BBF920A3E7D10012D615 /* UIBarButtonItem+XYMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14BBF020A3E7D00012D615 /* UIBarButtonItem+XYMenu.m */; };
+		EC14BBFA20A3E7D10012D615 /* XYMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14BBF220A3E7D00012D615 /* XYMenu.m */; };
+		EC14BBFB20A3E7D10012D615 /* XYMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14BBF620A3E7D10012D615 /* XYMenuView.m */; };
+		EC14BBFC20A3E7D10012D615 /* UIView+XYMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14BBF720A3E7D10012D615 /* UIView+XYMenu.m */; };
+		EC14BC0120A418CE0012D615 /* runback.png in Resources */ = {isa = PBXBuildFile; fileRef = EC14BC0020A418CE0012D615 /* runback.png */; };
+		EC14BC0520A42BA50012D615 /* failure.png in Resources */ = {isa = PBXBuildFile; fileRef = EC14BC0220A42BA50012D615 /* failure.png */; };
+		EC14BC0620A42BA50012D615 /* happyp.png in Resources */ = {isa = PBXBuildFile; fileRef = EC14BC0320A42BA50012D615 /* happyp.png */; };
+		EC14BC0720A42BA50012D615 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = EC14BC0420A42BA50012D615 /* happy.png */; };
+		EC1D9FA220A2814E004219DD /* HealthKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FA120A2814E004219DD /* HealthKitManager.m */; };
+		EC1D9FA820A28254004219DD /* HKHealthStore+Extensisons.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FA720A28254004219DD /* HKHealthStore+Extensisons.m */; };
+		EC1D9FAC20A2C4B2004219DD /* FMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FAB20A2C4B2004219DD /* FMDBManager.m */; };
+		EC1D9FAF20A2C6D2004219DD /* HealthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FAE20A2C6D2004219DD /* HealthModel.m */; };
+		EC1D9FB120A2DF9C004219DD /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FB020A2DF9B004219DD /* DateManager.swift */; };
+		EC1D9FB820A2E4BF004219DD /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FB620A2E4BF004219DD /* HistoryTableViewCell.m */; };
+		EC1D9FBC20A2F6A5004219DD /* HealthDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FBB20A2F6A5004219DD /* HealthDetailsViewController.m */; };
 		ECE60F9E20A02F0400289779 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE60F9D20A02F0400289779 /* AppDelegate.m */; };
-		ECE60FA120A02F0400289779 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE60FA020A02F0400289779 /* ViewController.m */; };
-		ECE60FA420A02F0400289779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE60FA220A02F0400289779 /* Main.storyboard */; };
 		ECE60FA620A02F0600289779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE60FA520A02F0600289779 /* Assets.xcassets */; };
 		ECE60FA920A02F0600289779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE60FA720A02F0600289779 /* LaunchScreen.storyboard */; };
 		ECE60FAC20A02F0600289779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE60FAB20A02F0600289779 /* main.m */; };
 		ECE60FB620A02F0600289779 /* RunningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE60FB520A02F0600289779 /* RunningTests.m */; };
 		ECE60FC120A02F0600289779 /* RunningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE60FC020A02F0600289779 /* RunningUITests.m */; };
+		ECF49E9320A13A3600E33A19 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49E8F20A13A3600E33A19 /* UIImage+Extension.m */; };
+		ECF49E9420A13A3600E33A19 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49E9220A13A3600E33A19 /* UIView+Extension.m */; };
+		ECF49E9720A13A5D00E33A19 /* SportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49E9520A13A5D00E33A19 /* SportViewController.m */; };
+		ECF49E9A20A13A6E00E33A19 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49E9920A13A6E00E33A19 /* HistoryViewController.m */; };
+		ECF49EA220A13A9100E33A19 /* MyNavgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49E9C20A13A9000E33A19 /* MyNavgationViewController.m */; };
+		ECF49EA320A13A9100E33A19 /* GuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49E9F20A13A9100E33A19 /* GuidePageViewController.m */; };
+		ECF49EA420A13A9100E33A19 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49EA120A13A9100E33A19 /* TabBarViewController.m */; };
+		ECF49EA720A13E2000E33A19 /* ArcProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49EA620A13E2000E33A19 /* ArcProgress.m */; };
+		ECF49EAD20A1776A00E33A19 /* MyTextFiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49EAC20A1776A00E33A19 /* MyTextFiledView.m */; };
+		ECF49EB020A17B7100E33A19 /* CustomMyPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49EAF20A17B7100E33A19 /* CustomMyPickerView.m */; };
+		ECF49EB420A188D900E33A19 /* MyUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49EB320A188D900E33A19 /* MyUserDefaults.m */; };
+		ECF49EB720A1900D00E33A19 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF49EB620A1900D00E33A19 /* BottomView.m */; };
+		ECF49EBA20A19FAE00E33A19 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF49EB920A19FAD00E33A19 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,16 +67,39 @@
 		279A3C50D1B4381AD2EE95B7 /* Pods-Running.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Running.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Running/Pods-Running.debug.xcconfig"; sourceTree = "<group>"; };
 		8A9E24764228F21BD9896A82 /* libPods-Running.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Running.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E352200FF87E398D96229911 /* Pods-Running.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Running.release.xcconfig"; path = "Pods/Target Support Files/Pods-Running/Pods-Running.release.xcconfig"; sourceTree = "<group>"; };
+		EC14BBEA20A3D6D80012D615 /* HistoryOneDayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryOneDayView.h; sourceTree = "<group>"; };
+		EC14BBEB20A3D6D80012D615 /* HistoryOneDayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryOneDayView.m; sourceTree = "<group>"; };
+		EC14BBEE20A3E7D00012D615 /* XYMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMenuItem.m; sourceTree = "<group>"; };
+		EC14BBEF20A3E7D00012D615 /* XYMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMenuItem.h; sourceTree = "<group>"; };
+		EC14BBF020A3E7D00012D615 /* UIBarButtonItem+XYMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XYMenu.m"; sourceTree = "<group>"; };
+		EC14BBF120A3E7D00012D615 /* XYMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMenuView.h; sourceTree = "<group>"; };
+		EC14BBF220A3E7D00012D615 /* XYMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMenu.m; sourceTree = "<group>"; };
+		EC14BBF320A3E7D00012D615 /* UIBarButtonItem+XYMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XYMenu.h"; sourceTree = "<group>"; };
+		EC14BBF420A3E7D00012D615 /* UIView+XYMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XYMenu.h"; sourceTree = "<group>"; };
+		EC14BBF520A3E7D10012D615 /* XYMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMenu.h; sourceTree = "<group>"; };
+		EC14BBF620A3E7D10012D615 /* XYMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMenuView.m; sourceTree = "<group>"; };
+		EC14BBF720A3E7D10012D615 /* UIView+XYMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XYMenu.m"; sourceTree = "<group>"; };
+		EC14BC0020A418CE0012D615 /* runback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runback.png; sourceTree = "<group>"; };
+		EC14BC0220A42BA50012D615 /* failure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = failure.png; sourceTree = "<group>"; };
+		EC14BC0320A42BA50012D615 /* happyp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happyp.png; sourceTree = "<group>"; };
+		EC14BC0420A42BA50012D615 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		EC1D9FA020A2814E004219DD /* HealthKitManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthKitManager.h; sourceTree = "<group>"; };
+		EC1D9FA120A2814E004219DD /* HealthKitManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthKitManager.m; sourceTree = "<group>"; };
+		EC1D9FA620A28254004219DD /* HKHealthStore+Extensisons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HKHealthStore+Extensisons.h"; sourceTree = "<group>"; };
+		EC1D9FA720A28254004219DD /* HKHealthStore+Extensisons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HKHealthStore+Extensisons.m"; sourceTree = "<group>"; };
+		EC1D9FAA20A2C4B2004219DD /* FMDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBManager.h; sourceTree = "<group>"; };
+		EC1D9FAB20A2C4B2004219DD /* FMDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBManager.m; sourceTree = "<group>"; };
+		EC1D9FAD20A2C6D2004219DD /* HealthModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthModel.h; sourceTree = "<group>"; };
+		EC1D9FAE20A2C6D2004219DD /* HealthModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthModel.m; sourceTree = "<group>"; };
+		EC1D9FB020A2DF9B004219DD /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		EC1D9FB520A2E4BF004219DD /* HistoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewCell.h; sourceTree = "<group>"; };
+		EC1D9FB620A2E4BF004219DD /* HistoryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewCell.m; sourceTree = "<group>"; };
+		EC1D9FBA20A2F6A5004219DD /* HealthDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthDetailsViewController.h; sourceTree = "<group>"; };
+		EC1D9FBB20A2F6A5004219DD /* HealthDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthDetailsViewController.m; sourceTree = "<group>"; };
 		EC8AA2AD20A0574800BB474A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		EC8AA2AE20A059BF00BB474A /* History */ = {isa = PBXFileReference; lastKnownFileType = folder; path = History; sourceTree = "<group>"; };
-		EC8AA2AF20A059BF00BB474A /* Others */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Others; sourceTree = "<group>"; };
-		EC8AA2B020A059BF00BB474A /* Sports */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sports; sourceTree = "<group>"; };
 		ECE60F9920A02F0400289779 /* Running.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Running.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE60F9C20A02F0400289779 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECE60F9D20A02F0400289779 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ECE60F9F20A02F0400289779 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECE60FA020A02F0400289779 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ECE60FA320A02F0400289779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECE60FA520A02F0600289779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECE60FA820A02F0600289779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECE60FAA20A02F0600289779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +110,33 @@
 		ECE60FBC20A02F0600289779 /* RunningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE60FC020A02F0600289779 /* RunningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunningUITests.m; sourceTree = "<group>"; };
 		ECE60FC220A02F0600289779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF49E8F20A13A3600E33A19 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		ECF49E9020A13A3600E33A19 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		ECF49E9120A13A3600E33A19 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		ECF49E9220A13A3600E33A19 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		ECF49E9520A13A5D00E33A19 /* SportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportViewController.m; sourceTree = "<group>"; };
+		ECF49E9620A13A5D00E33A19 /* SportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportViewController.h; sourceTree = "<group>"; };
+		ECF49E9820A13A6E00E33A19 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		ECF49E9920A13A6E00E33A19 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		ECF49E9C20A13A9000E33A19 /* MyNavgationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavgationViewController.m; sourceTree = "<group>"; };
+		ECF49E9D20A13A9000E33A19 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		ECF49E9E20A13A9100E33A19 /* GuidePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageViewController.h; sourceTree = "<group>"; };
+		ECF49E9F20A13A9100E33A19 /* GuidePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageViewController.m; sourceTree = "<group>"; };
+		ECF49EA020A13A9100E33A19 /* MyNavgationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavgationViewController.h; sourceTree = "<group>"; };
+		ECF49EA120A13A9100E33A19 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		ECF49EA520A13E2000E33A19 /* ArcProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcProgress.h; sourceTree = "<group>"; };
+		ECF49EA620A13E2000E33A19 /* ArcProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcProgress.m; sourceTree = "<group>"; };
+		ECF49EAB20A1776A00E33A19 /* MyTextFiledView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTextFiledView.h; sourceTree = "<group>"; };
+		ECF49EAC20A1776A00E33A19 /* MyTextFiledView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTextFiledView.m; sourceTree = "<group>"; };
+		ECF49EAE20A17B7100E33A19 /* CustomMyPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMyPickerView.h; sourceTree = "<group>"; };
+		ECF49EAF20A17B7100E33A19 /* CustomMyPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMyPickerView.m; sourceTree = "<group>"; };
+		ECF49EB220A188D900E33A19 /* MyUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUserDefaults.h; sourceTree = "<group>"; };
+		ECF49EB320A188D900E33A19 /* MyUserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUserDefaults.m; sourceTree = "<group>"; };
+		ECF49EB520A1900D00E33A19 /* BottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		ECF49EB620A1900D00E33A19 /* BottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		ECF49EB820A19FAD00E33A19 /* Running.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Running.entitlements; sourceTree = "<group>"; };
+		ECF49EB920A19FAD00E33A19 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		ECF49EBE20A1A3B900E33A19 /* Running-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Running-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E39FE69638A6B2C34165C63 /* libPods-Running.a in Frameworks */,
+				ECF49EBA20A19FAE00E33A19 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,9 +169,58 @@
 		68D61C40DC4026F84D70546E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ECF49EB920A19FAD00E33A19 /* HealthKit.framework */,
 				8A9E24764228F21BD9896A82 /* libPods-Running.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC14BBED20A3E7BF0012D615 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EC14BBF320A3E7D00012D615 /* UIBarButtonItem+XYMenu.h */,
+				EC14BBF020A3E7D00012D615 /* UIBarButtonItem+XYMenu.m */,
+				EC14BBF420A3E7D00012D615 /* UIView+XYMenu.h */,
+				EC14BBF720A3E7D10012D615 /* UIView+XYMenu.m */,
+				EC14BBF520A3E7D10012D615 /* XYMenu.h */,
+				EC14BBF220A3E7D00012D615 /* XYMenu.m */,
+				EC14BBEF20A3E7D00012D615 /* XYMenuItem.h */,
+				EC14BBEE20A3E7D00012D615 /* XYMenuItem.m */,
+				EC14BBF120A3E7D00012D615 /* XYMenuView.h */,
+				EC14BBF620A3E7D10012D615 /* XYMenuView.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		EC14BBFD20A410B90012D615 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EC14BC0220A42BA50012D615 /* failure.png */,
+				EC14BC0420A42BA50012D615 /* happy.png */,
+				EC14BC0320A42BA50012D615 /* happyp.png */,
+				EC14BC0020A418CE0012D615 /* runback.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		EC1D9F9D20A280F0004219DD /* MyHealthKitManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D9FA020A2814E004219DD /* HealthKitManager.h */,
+				EC1D9FA120A2814E004219DD /* HealthKitManager.m */,
+				EC1D9FA620A28254004219DD /* HKHealthStore+Extensisons.h */,
+				EC1D9FA720A28254004219DD /* HKHealthStore+Extensisons.m */,
+			);
+			path = MyHealthKitManager;
+			sourceTree = "<group>";
+		};
+		EC1D9FA920A2C497004219DD /* MyFMDBManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D9FAA20A2C4B2004219DD /* FMDBManager.h */,
+				EC1D9FAB20A2C4B2004219DD /* FMDBManager.m */,
+			);
+			path = MyFMDBManager;
 			sourceTree = "<group>";
 		};
 		ECE60F9020A02F0400289779 = {
@@ -123,14 +248,14 @@
 		ECE60F9B20A02F0400289779 /* Running */ = {
 			isa = PBXGroup;
 			children = (
-				EC8AA2AE20A059BF00BB474A /* History */,
-				EC8AA2AF20A059BF00BB474A /* Others */,
-				EC8AA2B020A059BF00BB474A /* Sports */,
+				ECF49EB820A19FAD00E33A19 /* Running.entitlements */,
+				ECF49EB120A188AE00E33A19 /* Global */,
+				ECF49E8820A139DA00E33A19 /* Sports */,
+				ECF49E8720A139D300E33A19 /* History */,
+				ECF49E8620A139CB00E33A19 /* Other */,
+				ECF49E8520A139B500E33A19 /* Nav */,
 				ECE60F9C20A02F0400289779 /* AppDelegate.h */,
 				ECE60F9D20A02F0400289779 /* AppDelegate.m */,
-				ECE60F9F20A02F0400289779 /* ViewController.h */,
-				ECE60FA020A02F0400289779 /* ViewController.m */,
-				ECE60FA220A02F0400289779 /* Main.storyboard */,
 				ECE60FA520A02F0600289779 /* Assets.xcassets */,
 				ECE60FA720A02F0600289779 /* LaunchScreen.storyboard */,
 				ECE60FAA20A02F0600289779 /* Info.plist */,
@@ -156,6 +281,135 @@
 				ECE60FC220A02F0600289779 /* Info.plist */,
 			);
 			path = RunningUITests;
+			sourceTree = "<group>";
+		};
+		ECF49E8520A139B500E33A19 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				ECF49E9B20A13A7C00E33A19 /* Controller */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		ECF49E8620A139CB00E33A19 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ECF49E9020A13A3600E33A19 /* UIImage+Extension.h */,
+				ECF49E8F20A13A3600E33A19 /* UIImage+Extension.m */,
+				ECF49E9120A13A3600E33A19 /* UIView+Extension.h */,
+				ECF49E9220A13A3600E33A19 /* UIView+Extension.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		ECF49E8720A139D300E33A19 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				EC14BBED20A3E7BF0012D615 /* Menu */,
+				ECF49E8E20A13A2000E33A19 /* View */,
+				ECF49E8D20A13A1200E33A19 /* Model */,
+				ECF49E8C20A13A0700E33A19 /* Controller */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		ECF49E8820A139DA00E33A19 /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				ECF49E8B20A139F600E33A19 /* Model */,
+				ECF49E8A20A139EE00E33A19 /* View */,
+				ECF49E8920A139E600E33A19 /* Controller */,
+			);
+			path = Sports;
+			sourceTree = "<group>";
+		};
+		ECF49E8920A139E600E33A19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECF49E9620A13A5D00E33A19 /* SportViewController.h */,
+				ECF49E9520A13A5D00E33A19 /* SportViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECF49E8A20A139EE00E33A19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECF49EA520A13E2000E33A19 /* ArcProgress.h */,
+				ECF49EA620A13E2000E33A19 /* ArcProgress.m */,
+				ECF49EAB20A1776A00E33A19 /* MyTextFiledView.h */,
+				ECF49EAC20A1776A00E33A19 /* MyTextFiledView.m */,
+				ECF49EAE20A17B7100E33A19 /* CustomMyPickerView.h */,
+				ECF49EAF20A17B7100E33A19 /* CustomMyPickerView.m */,
+				ECF49EB520A1900D00E33A19 /* BottomView.h */,
+				ECF49EB620A1900D00E33A19 /* BottomView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECF49E8B20A139F600E33A19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D9FAD20A2C6D2004219DD /* HealthModel.h */,
+				EC1D9FAE20A2C6D2004219DD /* HealthModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECF49E8C20A13A0700E33A19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECF49E9820A13A6E00E33A19 /* HistoryViewController.h */,
+				ECF49E9920A13A6E00E33A19 /* HistoryViewController.m */,
+				EC1D9FBA20A2F6A5004219DD /* HealthDetailsViewController.h */,
+				EC1D9FBB20A2F6A5004219DD /* HealthDetailsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECF49E8D20A13A1200E33A19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECF49E8E20A13A2000E33A19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC1D9FB520A2E4BF004219DD /* HistoryTableViewCell.h */,
+				EC1D9FB620A2E4BF004219DD /* HistoryTableViewCell.m */,
+				EC14BBEA20A3D6D80012D615 /* HistoryOneDayView.h */,
+				EC14BBEB20A3D6D80012D615 /* HistoryOneDayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECF49E9B20A13A7C00E33A19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECF49E9E20A13A9100E33A19 /* GuidePageViewController.h */,
+				ECF49E9F20A13A9100E33A19 /* GuidePageViewController.m */,
+				ECF49EA020A13A9100E33A19 /* MyNavgationViewController.h */,
+				ECF49E9C20A13A9000E33A19 /* MyNavgationViewController.m */,
+				ECF49E9D20A13A9000E33A19 /* TabBarViewController.h */,
+				ECF49EA120A13A9100E33A19 /* TabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECF49EB120A188AE00E33A19 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				EC14BBFD20A410B90012D615 /* Image */,
+				EC1D9FA920A2C497004219DD /* MyFMDBManager */,
+				EC1D9F9D20A280F0004219DD /* MyHealthKitManager */,
+				ECF49EB220A188D900E33A19 /* MyUserDefaults.h */,
+				ECF49EB320A188D900E33A19 /* MyUserDefaults.m */,
+				EC1D9FB020A2DF9B004219DD /* DateManager.swift */,
+				ECF49EBE20A1A3B900E33A19 /* Running-Bridging-Header.h */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 		F24DBA369CA73B6DC80508CD /* Pods */ = {
@@ -235,6 +489,12 @@
 				TargetAttributes = {
 					ECE60F9820A02F0400289779 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					ECE60FB020A02F0600289779 = {
 						CreatedOnToolsVersion = 9.3;
@@ -271,12 +531,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8AA2B220A059C000BB474A /* Others in Resources */,
 				ECE60FA920A02F0600289779 /* LaunchScreen.storyboard in Resources */,
-				EC8AA2B120A059C000BB474A /* History in Resources */,
+				EC14BC0120A418CE0012D615 /* runback.png in Resources */,
+				EC14BC0720A42BA50012D615 /* happy.png in Resources */,
+				EC14BC0620A42BA50012D615 /* happyp.png in Resources */,
+				EC14BC0520A42BA50012D615 /* failure.png in Resources */,
 				ECE60FA620A02F0600289779 /* Assets.xcassets in Resources */,
-				ECE60FA420A02F0400289779 /* Main.storyboard in Resources */,
-				EC8AA2B320A059C000BB474A /* Sports in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,9 +582,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE60FA120A02F0400289779 /* ViewController.m in Sources */,
+				ECF49EAD20A1776A00E33A19 /* MyTextFiledView.m in Sources */,
+				ECF49E9320A13A3600E33A19 /* UIImage+Extension.m in Sources */,
+				EC14BBFB20A3E7D10012D615 /* XYMenuView.m in Sources */,
 				ECE60FAC20A02F0600289779 /* main.m in Sources */,
+				EC1D9FBC20A2F6A5004219DD /* HealthDetailsViewController.m in Sources */,
+				ECF49E9720A13A5D00E33A19 /* SportViewController.m in Sources */,
+				EC14BBEC20A3D6D80012D615 /* HistoryOneDayView.m in Sources */,
+				ECF49E9420A13A3600E33A19 /* UIView+Extension.m in Sources */,
+				ECF49EB020A17B7100E33A19 /* CustomMyPickerView.m in Sources */,
+				EC1D9FB120A2DF9C004219DD /* DateManager.swift in Sources */,
+				EC1D9FA220A2814E004219DD /* HealthKitManager.m in Sources */,
+				EC14BBF920A3E7D10012D615 /* UIBarButtonItem+XYMenu.m in Sources */,
 				ECE60F9E20A02F0400289779 /* AppDelegate.m in Sources */,
+				EC1D9FA820A28254004219DD /* HKHealthStore+Extensisons.m in Sources */,
+				EC1D9FB820A2E4BF004219DD /* HistoryTableViewCell.m in Sources */,
+				ECF49EA720A13E2000E33A19 /* ArcProgress.m in Sources */,
+				EC1D9FAF20A2C6D2004219DD /* HealthModel.m in Sources */,
+				EC14BBF820A3E7D10012D615 /* XYMenuItem.m in Sources */,
+				EC14BBFC20A3E7D10012D615 /* UIView+XYMenu.m in Sources */,
+				EC14BBFA20A3E7D10012D615 /* XYMenu.m in Sources */,
+				ECF49E9A20A13A6E00E33A19 /* HistoryViewController.m in Sources */,
+				ECF49EA320A13A9100E33A19 /* GuidePageViewController.m in Sources */,
+				ECF49EA420A13A9100E33A19 /* TabBarViewController.m in Sources */,
+				EC1D9FAC20A2C4B2004219DD /* FMDBManager.m in Sources */,
+				ECF49EB720A1900D00E33A19 /* BottomView.m in Sources */,
+				ECF49EB420A188D900E33A19 /* MyUserDefaults.m in Sources */,
+				ECF49EA220A13A9100E33A19 /* MyNavgationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,14 +644,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECE60FA220A02F0400289779 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECE60FA320A02F0400289779 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ECE60FA720A02F0600289779 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -494,7 +770,12 @@
 			baseConfigurationReference = 279A3C50D1B4381AD2EE95B7 /* Pods-Running.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Running/Running.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = E2BBNGE4QY;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Running/PrefixHeader.pch";
 				INFOPLIST_FILE = Running/Info.plist;
@@ -504,6 +785,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "mr-li.Running";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Running/Global/Running-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -513,7 +797,12 @@
 			baseConfigurationReference = E352200FF87E398D96229911 /* Pods-Running.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Running/Running.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = E2BBNGE4QY;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Running/PrefixHeader.pch";
 				INFOPLIST_FILE = Running/Info.plist;
@@ -523,6 +812,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "mr-li.Running";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Running/Global/Running-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -530,6 +821,7 @@
 		ECE60FC920A02F0600289779 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RunningTests/Info.plist;
@@ -548,6 +840,7 @@
 		ECE60FCA20A02F0600289779 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RunningTests/Info.plist;
@@ -566,6 +859,7 @@
 		ECE60FCC20A02F0600289779 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RunningUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -583,6 +877,7 @@
 		ECE60FCD20A02F0600289779 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RunningUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
