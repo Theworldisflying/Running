@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6E39FE69638A6B2C34165C63 /* libPods-Running.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E24764228F21BD9896A82 /* libPods-Running.a */; };
+		EC138E2720A542E2004A655C /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC138E2620A542E2004A655C /* DateManager.m */; };
 		EC14BBEC20A3D6D80012D615 /* HistoryOneDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14BBEB20A3D6D80012D615 /* HistoryOneDayView.m */; };
 		EC14BBF820A3E7D10012D615 /* XYMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14BBEE20A3E7D00012D615 /* XYMenuItem.m */; };
 		EC14BBF920A3E7D10012D615 /* UIBarButtonItem+XYMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14BBF020A3E7D00012D615 /* UIBarButtonItem+XYMenu.m */; };
@@ -22,7 +23,6 @@
 		EC1D9FA820A28254004219DD /* HKHealthStore+Extensisons.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FA720A28254004219DD /* HKHealthStore+Extensisons.m */; };
 		EC1D9FAC20A2C4B2004219DD /* FMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FAB20A2C4B2004219DD /* FMDBManager.m */; };
 		EC1D9FAF20A2C6D2004219DD /* HealthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FAE20A2C6D2004219DD /* HealthModel.m */; };
-		EC1D9FB120A2DF9C004219DD /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FB020A2DF9B004219DD /* DateManager.swift */; };
 		EC1D9FB820A2E4BF004219DD /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FB620A2E4BF004219DD /* HistoryTableViewCell.m */; };
 		EC1D9FBC20A2F6A5004219DD /* HealthDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1D9FBB20A2F6A5004219DD /* HealthDetailsViewController.m */; };
 		ECE60F9E20A02F0400289779 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE60F9D20A02F0400289779 /* AppDelegate.m */; };
@@ -67,6 +67,8 @@
 		279A3C50D1B4381AD2EE95B7 /* Pods-Running.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Running.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Running/Pods-Running.debug.xcconfig"; sourceTree = "<group>"; };
 		8A9E24764228F21BD9896A82 /* libPods-Running.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Running.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E352200FF87E398D96229911 /* Pods-Running.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Running.release.xcconfig"; path = "Pods/Target Support Files/Pods-Running/Pods-Running.release.xcconfig"; sourceTree = "<group>"; };
+		EC138E2520A542E2004A655C /* DateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateManager.h; sourceTree = "<group>"; };
+		EC138E2620A542E2004A655C /* DateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateManager.m; sourceTree = "<group>"; };
 		EC14BBEA20A3D6D80012D615 /* HistoryOneDayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryOneDayView.h; sourceTree = "<group>"; };
 		EC14BBEB20A3D6D80012D615 /* HistoryOneDayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryOneDayView.m; sourceTree = "<group>"; };
 		EC14BBEE20A3E7D00012D615 /* XYMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMenuItem.m; sourceTree = "<group>"; };
@@ -91,7 +93,6 @@
 		EC1D9FAB20A2C4B2004219DD /* FMDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBManager.m; sourceTree = "<group>"; };
 		EC1D9FAD20A2C6D2004219DD /* HealthModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthModel.h; sourceTree = "<group>"; };
 		EC1D9FAE20A2C6D2004219DD /* HealthModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthModel.m; sourceTree = "<group>"; };
-		EC1D9FB020A2DF9B004219DD /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 		EC1D9FB520A2E4BF004219DD /* HistoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewCell.h; sourceTree = "<group>"; };
 		EC1D9FB620A2E4BF004219DD /* HistoryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewCell.m; sourceTree = "<group>"; };
 		EC1D9FBA20A2F6A5004219DD /* HealthDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthDetailsViewController.h; sourceTree = "<group>"; };
@@ -136,7 +137,6 @@
 		ECF49EB620A1900D00E33A19 /* BottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
 		ECF49EB820A19FAD00E33A19 /* Running.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Running.entitlements; sourceTree = "<group>"; };
 		ECF49EB920A19FAD00E33A19 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
-		ECF49EBE20A1A3B900E33A19 /* Running-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Running-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -406,8 +406,8 @@
 				EC1D9F9D20A280F0004219DD /* MyHealthKitManager */,
 				ECF49EB220A188D900E33A19 /* MyUserDefaults.h */,
 				ECF49EB320A188D900E33A19 /* MyUserDefaults.m */,
-				EC1D9FB020A2DF9B004219DD /* DateManager.swift */,
-				ECF49EBE20A1A3B900E33A19 /* Running-Bridging-Header.h */,
+				EC138E2520A542E2004A655C /* DateManager.h */,
+				EC138E2620A542E2004A655C /* DateManager.m */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -582,6 +582,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC138E2720A542E2004A655C /* DateManager.m in Sources */,
 				ECF49EAD20A1776A00E33A19 /* MyTextFiledView.m in Sources */,
 				ECF49E9320A13A3600E33A19 /* UIImage+Extension.m in Sources */,
 				EC14BBFB20A3E7D10012D615 /* XYMenuView.m in Sources */,
@@ -591,7 +592,6 @@
 				EC14BBEC20A3D6D80012D615 /* HistoryOneDayView.m in Sources */,
 				ECF49E9420A13A3600E33A19 /* UIView+Extension.m in Sources */,
 				ECF49EB020A17B7100E33A19 /* CustomMyPickerView.m in Sources */,
-				EC1D9FB120A2DF9C004219DD /* DateManager.swift in Sources */,
 				EC1D9FA220A2814E004219DD /* HealthKitManager.m in Sources */,
 				EC14BBF920A3E7D10012D615 /* UIBarButtonItem+XYMenu.m in Sources */,
 				ECE60F9E20A02F0400289779 /* AppDelegate.m in Sources */,
@@ -687,7 +687,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 10856829@qq.com (EP62P6FC6K)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -745,7 +745,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 10856829@qq.com (EP62P6FC6K)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -773,7 +773,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Running/Running.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = E2BBNGE4QY;
 				ENABLE_ON_DEMAND_RESOURCES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -800,7 +800,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Running/Running.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = E2BBNGE4QY;
 				ENABLE_ON_DEMAND_RESOURCES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -821,7 +821,6 @@
 		ECE60FC920A02F0600289779 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RunningTests/Info.plist;
@@ -840,7 +839,6 @@
 		ECE60FCA20A02F0600289779 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RunningTests/Info.plist;
@@ -859,7 +857,6 @@
 		ECE60FCC20A02F0600289779 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RunningUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -877,7 +874,6 @@
 		ECE60FCD20A02F0600289779 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RunningUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

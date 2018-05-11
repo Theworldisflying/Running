@@ -44,6 +44,11 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
+    
+    [self setUIScrollView];
+    
+    [self setFMDB];
+    
     [self setDataUI];
 }
 
@@ -59,9 +64,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self setUIScrollView];
-    
-    [self setFMDB];
+   
     
     
 //    __block double stepGet;

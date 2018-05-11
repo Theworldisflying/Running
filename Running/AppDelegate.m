@@ -11,6 +11,7 @@
 #import "TabBarViewController.h"
 
 @interface AppDelegate ()
+@property(strong,nonatomic) TabBarViewController * tabbar;
 
 @end
 
@@ -28,10 +29,13 @@
     NSString *currentVerison = [NSBundle mainBundle].infoDictionary[@"CFBundleVersion"];
     //2.获取上一次版本号
     NSString *lastVersion = [[NSUserDefaults standardUserDefaults] objectForKey:YGVersionKey];
+    
+    
+    self.tabbar = [[TabBarViewController alloc] init];
     //3.判断当前是否有新的版本，如果有新特性，进入新特性界面
     if ([currentVerison isEqualToString:lastVersion]) {//没有最新版本号
         
-        self.window.rootViewController = [[TabBarViewController alloc] init];
+        self.window.rootViewController = _tabbar;
         
     }else{//有最新版本号，进入新特性界面
         GuidePageViewController *newFeature = [[GuidePageViewController alloc]init];
@@ -68,7 +72,12 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    if (self.tabbar != nil) {
+        [self.tabbar removeFromParentViewController];
+    }
     
+    
+    self.window.rootViewController = [[TabBarViewController alloc] init];
 }
 
 
